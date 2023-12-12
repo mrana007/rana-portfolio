@@ -1,4 +1,4 @@
-import { FaFacebookF, FaInstagram, FaLinkedin } from "react-icons/fa";
+import { FaFacebookF, FaInstagram, FaGithub } from "react-icons/fa";
 import { Link } from "react-router-dom";
 
 const Footer = () => {
@@ -19,22 +19,22 @@ const Footer = () => {
         <nav>
           <div className="grid grid-flow-col gap-4">
             <Link
-              to="https://www.linkedin.com/in/rana0709"
+              to="https://github.com/mrana007"
               target="_blank"
               rel="noopener noreferrer">
-              <FaLinkedin className="text-blue-500 text-4xl"></FaLinkedin>
+              <FaGithub className="text-white text-5xl"></FaGithub>
             </Link>
             <Link
               to="https://web.facebook.com/rana.iubat"
               target="_blank"
               rel="noopener noreferrer">
-              <FaFacebookF className="text-blue-500 text-4xl"></FaFacebookF>
+              <FaFacebookF className="text-blue-500 text-5xl"></FaFacebookF>
             </Link>
             <Link
               to="https://www.instagram.com/sm_rana007"
               target="_blank"
               rel="noopener noreferrer">
-              <FaInstagram className="text-red-500 text-4xl"></FaInstagram>
+              <FaInstagram className="text-red-500 text-5xl"></FaInstagram>
             </Link>
           </div>
         </nav>

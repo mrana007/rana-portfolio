@@ -4,7 +4,7 @@ import toast from "react-hot-toast";
 
 const ContactMe = () => {
   const form = useRef();
-  
+
   const sendEmail = (e) => {
     e.preventDefault();
 
@@ -31,7 +31,7 @@ const ContactMe = () => {
     <div className="h-screen bg-gray-800">
       <div className="pt-10 md:pt-20">
         <div className="p-4 md:p-8">
-          <h1 className="bg-gradient-to-r from-[#00f298] to-[#07f7f7] bg-clip-text text-transparent text-center pb-8 font-light text-4xl md:text-5xl lg:text-6xl">
+          <h1 className="bg-gradient-to-r from-[#00f298] to-[#07f7f7] bg-clip-text text-transparent text-center font-bold pb-8 text-4xl md:text-5xl lg:text-6xl">
             Contact Me
           </h1>
           <form
@@ -74,7 +74,7 @@ const ContactMe = () => {
             <button
               type="submit"
               value="Send"
-              className="border-2 text-md mt-5 rounded-md py-2 px-4 bg-blue-600 hover:bg-blue-700 text-gray-100 transition duration-300 ease-in-out focus:outline-none focus:ring-2 focus:ring-blue-600">
+              className="border-2 text-md mt-5 rounded-md border-none py-2 px-4 bg-green-600 hover:bg-blue-700 text-gray-100 transition duration-300 ease-in-out focus:outline-none focus:ring-2 focus:ring-blue-600">
               Send Message
             </button>
           </form>

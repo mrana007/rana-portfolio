@@ -1,6 +1,5 @@
-import { NavLink } from "react-router-dom";
-import { FaCloudDownloadAlt } from "react-icons/fa";
-import resume from "../../../assets/resume.pdf"
+import { Link, NavLink } from "react-router-dom";
+import linkedinImg from "../../../assets/linkedin.png"
 
 const Navbar = () => {
   const navOptions = (
@@ -43,8 +42,12 @@ const Navbar = () => {
             {navOptions}
         </ul>
         </div>
-        <div className="navbar-end">
-          <a href={resume} download="Rana.pdf"  className="btn bg-[#17d396] text-white border-none"><FaCloudDownloadAlt className="text-2xl" /> Download CV</a>
+        <div className="navbar-end pr-7">
+          <Link to='https://www.linkedin.com/in/rana0709'
+          target="_blank"
+          rel="noopener noreferrer">
+            <img className="w-24" src={linkedinImg}/>
+          </Link>
         </div>
       </div>
     </>
