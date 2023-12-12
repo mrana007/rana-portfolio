@@ -15,12 +15,20 @@ const BuildingManagement = () => {
             play={true}
             cancelOnInteraction={false}
             interval={2000} >
-            <div data-src="https://i.ibb.co/Mg9NYyL/img1.jpg" />
-            <div data-src="https://i.ibb.co/YhVh4SX/img2.jpg" />
-            <div data-src="https://i.ibb.co/BfvXjWj/img3.jpg" />
-            <div data-src="https://i.ibb.co/41MJKyp/img4.jpg" />
-            <div data-src="https://i.ibb.co/zNSvWKs/img5.jpg" />
-            <div data-src="https://i.ibb.co/g6vTmL3/img6.jpg" />
+            <div data-src="https://i.ibb.co/MCG6vBG/Screenshot-2023-12-12-at-19-57-24.png" />
+            <div data-src="https://i.ibb.co/F3L9gWT/Screenshot-2023-12-12-at-19-57-44.png" />
+            <div data-src="https://i.ibb.co/b3fFQ7c/Screenshot-2023-12-12-at-19-58-10.png" />
+            <div data-src="https://i.ibb.co/n7VhM15/Screenshot-2023-12-12-at-19-58-18.png" />
+            <div data-src="https://i.ibb.co/QDfMtfq/Screenshot-2023-12-12-at-19-58-53.png" />
+            <div data-src="https://i.ibb.co/QCvTgcV/Screenshot-2023-12-12-at-19-59-16.png" />
+            <div data-src="https://i.ibb.co/fts2KWH/Screenshot-2023-12-12-at-19-59-47.png" />
+            <div data-src="https://i.ibb.co/f9gs5vn/Screenshot-2023-12-12-at-20-00-09.png" />
+            <div data-src="https://i.ibb.co/PZHgYvs/Screenshot-2023-12-12-at-20-00-37.png" />
+            <div data-src="https://i.ibb.co/yqN1snM/Screenshot-2023-12-12-at-20-00-21.png" />
+            <div data-src="https://i.ibb.co/PZHgYvs/Screenshot-2023-12-12-at-20-00-37.png" />
+            <div data-src="https://i.ibb.co/3FPQxPW/Screenshot-2023-12-12-at-20-01-28.png" />
+            <div data-src="https://i.ibb.co/DRJmYxZ/Screenshot-2023-12-12-at-20-01-45.png" />
+            <div data-src="https://i.ibb.co/ZBpPSgF/Screenshot-2023-12-12-at-20-01-34.png" />
           </AutoplaySlider>
         </div>
       </div>
