@@ -12,10 +12,6 @@ const Education = () => {
     <div className="timeline-middle">
     <IoSchool className="text-[#07f7f7] text-5xl"/>
     </div>
-    <div className="timeline-end mb-10">
-      <time className="font-medium text-xl text-white italic">Degree</time>
-      <div className="text-2xl font-bold bg-gradient-to-r from-[#00f298] to-[#07f7f7] bg-clip-text text-transparent uppercase pb-2"></div>
-    </div>
     <hr />
   </li>
   <li>
