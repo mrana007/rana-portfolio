@@ -4,6 +4,7 @@ import Banner from "../Banner/Banner";
 import Skills from "../Skills/Skills";
 import Projects from "../Projects/Projects";
 import Hire from "../Hire/Hire";
+import Education from "../Education/Education";
 
 
 const Home = () => {
@@ -14,6 +15,7 @@ const Home = () => {
             </Helmet>
             <Banner />
             <About />
+            <Education />
             <Skills />
             <Projects />
             <Hire />
