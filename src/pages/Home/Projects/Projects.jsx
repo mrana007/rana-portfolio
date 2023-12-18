@@ -3,9 +3,14 @@ import { FaLink } from "react-icons/fa";
 import project1 from "../../../assets/projects1.jpg"
 import project2 from "../../../assets/projects2.jpg"
 import project3 from "../../../assets/projects3.jpg"
+import { Helmet } from "react-helmet-async";
 
 const Projects = () => {
   return (
+    <>
+      <Helmet>
+        <title>Portfolio | Projects</title>
+      </Helmet>
     <div className="bg-black">
       <h2 className="text-center text-4xl md:text-7xl font-bold bg-gradient-to-r from-[#00f298] to-[#07f7f7] bg-clip-text text-transparent uppercase p-20">
         Some of my works
@@ -45,6 +50,7 @@ const Projects = () => {
         </div>
       </div>
     </div>
+    </>
   );
 };
 

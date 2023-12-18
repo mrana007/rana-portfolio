@@ -17,7 +17,7 @@ const Hire = () => {
           </div>
           <div className="col-span-1">
             <Link to="/contact">
-              <button className="btn btn-accent bg-[#22252c] text-[#02cfb4] border-none w-36 text-xl">
+              <button className="btn bg-[#22252c] hover:bg-green-950 text-[#02cfb4] border-none w-36 text-xl">
                 Hire me
               </button>
             </Link>

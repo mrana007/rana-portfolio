@@ -1,5 +1,5 @@
 import img from "../../../assets/ranaImg.jpg";
-import resume from "../../../assets/resume.pdf"
+import resume from "../../../assets/Resume of Md Masud Rana.pdf";
 import { FaCloudDownloadAlt } from "react-icons/fa";
 
 const About = () => {
@@ -8,10 +8,15 @@ const About = () => {
       <div className="flex-1 ">
         <div className="flex justify-center items-center">
           <img className="w-[390px] rounded-lg" src={img} />
-          </div>
-          <div className="flex justify-center pt-6">
-          <a href={resume} download="Rana.pdf"  className="btn bg-[#17d396] text-white border-none"><FaCloudDownloadAlt className="text-2xl" /> Download CV</a>
-          </div>
+        </div>
+        <div className="flex justify-center pt-6">
+          <a
+            href={resume}
+            download="Resume of Rana.pdf"
+            className="btn bg-[#17d396] hover:bg-green-950 text-white border-none" >
+            <FaCloudDownloadAlt className="text-2xl" />Resume
+          </a>
+        </div>
       </div>
       <div className="flex-1">
         <h2 className="text-5xl font-bold bg-gradient-to-r from-[#00f298] to-[#07f7f7] bg-clip-text text-transparent uppercase">
